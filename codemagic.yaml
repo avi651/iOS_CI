@@ -10,5 +10,5 @@ workflows:
             --scheme Sportify
     publishing:
      email: 
-      recipiennts:
+      recipients:
         - kumaravi651@gmail.com        
