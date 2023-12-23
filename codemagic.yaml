@@ -5,8 +5,8 @@ workflows:
     scripts:
       - name: iOS test
         script: |
-          xcode-project run-tests \
-            --workspace SportifyCI.xcworkspace \
+          xcode-project run-tests
+            --workspace SportifyCI.xcworkspace
             --scheme Sportify
     publishing:
      email: 
